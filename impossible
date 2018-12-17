@@ -1,4 +1,4 @@
-function say(greetng, firstName) {
+function say(greeting, firstName) {
   return `${greeting}, $firstName}!`
 }
 
