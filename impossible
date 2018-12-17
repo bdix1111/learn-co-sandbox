@@ -3,4 +3,4 @@ function say(greeting, firstName) {
   console.log('I was called!')
 }
 
-say("Howdy, "partner")
+say("Howdy", "partner")
