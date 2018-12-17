@@ -1,5 +1,5 @@
-function add(x, y) {
-  return x + y
+function sayHello() {
+  console.log('Hello, stranger')
 }
 
-add(1, 2)
+sayHello()
