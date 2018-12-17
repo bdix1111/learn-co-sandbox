@@ -1,17 +1,8 @@
-function sayHello() {
-  console.log('Hello!')
+function sayHelloTo(firstName) {
+  console.log('Hello, ${firstName}!')
 }
 
-sayHello()
-
-function sayHelloToIsabel() {
-  console.log("Hello, Isabel!")
-}
-
-sayHelloToIsabel()
-
-function doSomething(thing) {
-  console.log(thing)
-}
-
-doSomething('anything')
+sayHelloTo('Isabel')
+sayHelloTo('Jane')
+sayHelloTo('R2-D2')
+sayHelloTo(1)
