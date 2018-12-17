@@ -1,5 +1,5 @@
-function add(x, y) {
-  return x + y
+function say(greeting, firstName) {
+  console.log(`${greeting}, ${firstName}!`)
 }
 
-add(1, 2)
+say("Adios", "Motherfuckers")
