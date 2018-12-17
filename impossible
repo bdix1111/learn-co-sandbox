@@ -1,5 +1,5 @@
-function sayHello() {
-  console.log('Hello, stranger')
+function sayHello(toWho) {
+  console.log('Hello, ${toWho}')
 }
 
-sayHello()
+sayHello("stranger")
