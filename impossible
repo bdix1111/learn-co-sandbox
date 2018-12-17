@@ -1,6 +1,5 @@
-function say(greeting, firstName) {
-  return `${greeting}, ${firstName}!`
-  console.log('I was called!')
+function add(x, y) {
+  return x + y
 }
 
-say("Howdy", "partner")
+add(1, 2)
